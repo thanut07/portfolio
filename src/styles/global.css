@@ -1,0 +1,43 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#f0efe2] px-12
+}
+.hamburger-menu {
+  @apply h-[2px] w-full bg-white rounded transition-all duration-300
+}
+
+ .input_default {
+    @apply flex w-full items-center justify-center rounded-md border bg-white py-[8px] px-[8px] h-10 outline-none border-gray-400 font-light;
+  }
+
+  .input_mail_default {
+    @apply flex w-full items-center justify-center rounded-md border bg-white py-[8px] px-[8px] outline-none border-gray-400 font-light;
+  }
+
+  .input_success {
+    @apply flex w-full items-center justify-center rounded-md border bg-white/0 py-[8px] px-[8px] outline-none !border-green-500 !text-green-500 font-light;
+  }
+
+  .input_error {
+    @apply flex w-full items-center justify-center rounded-md border bg-white/0 py-[8px] px-[8px] outline-none !border-red-500 !text-red-500 font-light;
+  }
+
+  .input_disabled {
+    @apply flex w-full items-center justify-center rounded-md border bg-white/0 py-[8px] px-[8px] outline-none border-gray-300 !bg-gray-100 cursor-not-allowed focus:invisible font-light;
+  }
+
+  .input-radio-group-default {
+    @apply bg-white py-1 px-2 rounded-xl outline-none border;
+  }
+
+:root {
+  --dark-blue-violet: #383e8c;
+  --secondary: #6c72d9;
+}
