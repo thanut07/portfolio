@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className="font-bold text-[#383e8c] text-xl lg:text-6xl"> INTERNSHIP </h1>
         <p className="text-[#383e8c] text-md lg:text-4xl mt-4 lg:mt-8 font-semibold"> May 2025 - September 2025 </p>
         <p className="text-[#383e8c] text-md lg:text-4xl font-semibold"> Front-End Developer At Hugcode Co.,Ltd, Pathumthani </p>
-        <p className="text-[#383e8c] text-xs lg:text-xl mt-4 lg:mt-8 "> Hi, I'm Fin, an aspiring Fullstack Developer passionate about building modern web applications. Currently, I am focusing on improving my skills in both frontend and backend development, learning new technologies, and working towards becoming a confident Fullstack Developer in the near future. </p>
+        <p className="text-[#383e8c] text-xs lg:text-xl mt-4 lg:mt-8 "> ดิฉันมีความสนใจด้านการพัฒนาเว็บไซต์ ฉันเริ่มต้นจากการเรียนรู้ด้าน Front-End ด้วยเทคโนโลยีอย่าง HTML, CSS, JavaScript และ React เพื่อสร้างเว็บไซต์ที่สวยงามและใช้งานได้จริง และกำลังศึกษาต่อยอดในด้าน Back-End เพื่อเข้าใจการทำงานของระบบในภาพรวม และมีเป้าหมายที่จะพัฒนาเป็น Full-Stack Developer ที่สามารถพัฒนาเว็บแอพพลิเคชันได้ทั้งหน้าบ้านและหลังบ้าน </p>
       </section>
 
       <section className="w-full my-20">
